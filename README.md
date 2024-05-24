@@ -13,7 +13,7 @@ The primary objective is understanding:
 
 - Relationships between the Compound X's properties, 
 - Efficacy,
-- Safety, and
+- Safety and
 - Biological targets. 
 
 Integrating and exploring multiple datasets in this project aims to uncover patterns and insights that can inform drug development and safety evaluations.
@@ -69,9 +69,9 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 
 - Correlation Matrix showing relationships
 - Key insights
-↑ Molecular Weight = ↓ Bioavailability and Clearance = ↓ Efficacy
-↑ Molecular Weight = ↓ Oral Bioavailability = ↓ Absorption
-↑ Molecular Weight = ↓ Clearance  = ↓ Safety 
+1. ↑ Molecular Weight = ↓ Bioavailability and Clearance = ↓ Efficacy
+2. ↑ Molecular Weight = ↓ Oral Bioavailability = ↓ Absorption
+3. ↑ Molecular Weight = ↓ Clearance  = ↓ Safety 
 
 Fig x: Physicochemical Properties vs Bioavailability and Clearance
 
@@ -80,9 +80,9 @@ Fig x: Physicochemical Properties vs Bioavailability and Clearance
 
 - Correlation Matrix showing relationships
 - Key insights
-↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↑ Efficacy
-↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↑ Safety
-↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↓ Metabolic Burden 
+1. ↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↑ Efficacy
+2. ↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↑ Safety
+3. ↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↓ Metabolic Burden 
 
 Fig x:  Assessing Primary Potency vs Selectivity 
 
@@ -91,9 +91,9 @@ Fig x:  Assessing Primary Potency vs Selectivity
 
 - Correlation Matrix showing relationships
 - Key insights
-↑ pIC50 = ↓ Adverse Events = ↑ Efficacy
-↑ pIC50 = ↓ Adverse Events  = ↓ Dose 
-↑ pIC50 = ↓ Adverse Events  = ↑ Safety 
+1. ↑ pIC50 = ↓ Adverse Events = ↑ Efficacy
+2. ↑ pIC50 = ↓ Adverse Events  = ↓ Dose 
+3. ↑ pIC50 = ↓ Adverse Events  = ↑ Safety 
 
 Fig x:  Drug Selectivity vs Adverse Reactions 
 
@@ -102,9 +102,9 @@ Fig x:  Drug Selectivity vs Adverse Reactions
 
 - Correlation Matrix showing relationships
 - Key insights
-↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↑ Efficacy
-↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↑ Dosing Duration
-↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↓ Safety 
+1. ↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↑ Efficacy
+2. ↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↑ Dosing Duration
+3. ↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↓ Safety 
 
 
 Fig x: In Vitro vs. In Vivo Properties
@@ -114,9 +114,9 @@ Fig x: In Vitro vs. In Vivo Properties
 
 - Correlation Matrix showing relationships
 - Key insights
-↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
-↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
-↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
+1. ↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
+2. ↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
+3. ↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
 
 
 Fig x: Physicochemical Properties vs Absorption 
@@ -133,11 +133,11 @@ Fig x: Physicochemical Properties vs Absorption
 
 - Apply machine learning algorithms to predict drug behavior, efficacy, and safety. 
 
-        1.   Optimal criteria:  ↑ Bioavailability,  ↑ Fractional Absorption, ↑ Compound Solubility,  ↑ Cell Permeability, ↑ pIC50, ↑ Primary Bioactivity, Moderate Clearance and Molecular Weight values. 
-        2.   New target feature creation (defining a function for the optimal criteria).
-        3.   Model training and prediction
-        4.   Evaluating model performance
-        5.   Rank optimal compounds
+1. Optimal criteria:  ↑ Bioavailability,  ↑ Fractional Absorption, ↑ Compound Solubility,  ↑ Cell Permeability, ↑ pIC50, ↑ Primary Bioactivity, Moderate Clearance and Molecular Weight values. 
+2. New target feature creation (defining a function for the optimal criteria).
+3. Model training and prediction
+4. Evaluating model performance
+5. Rank optimal compounds
 
 -  Validate findings with additional in vivo studies.
 
