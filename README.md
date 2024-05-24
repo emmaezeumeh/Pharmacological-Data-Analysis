@@ -5,6 +5,7 @@
 
 ## Investigating The Pharmacodynamic And Pharmacokinetic Profiles Of A Drug Molecule
 
+
 ### The Project
 
 **Description**
@@ -28,8 +29,11 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 - 3 datasets (Gene_Drug_Adverse_Event_Relationships.csv, Compound_Off_Target_Activity.csv and Project_Level_Data.csv)
 - Almost 7 million rows across three datasets. 
 - Features include gene symbol, adverse event, adverse event category, encoded adverse event category, compound ID, pic50, primary target assay bioactivity, molecular weight, cell permeability, compound solubility, fractional absorption, bioavailability, and clearance.
-  
+
+**Histogram Showing Feature Distribution**
+
 ![feature distribution](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/e73b36a6-f81a-4f20-8a68-78d04d8030bf)
+
 
 ### The Process
 
@@ -39,8 +43,11 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 - Data Standardization
 - Exploratory Data Analysis
 - Statistical Analysis
+
+**Boxplot Showing Feature Distribution Before Outlier Filtration**
   
 ![features before outlier filtration](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/376a39b0-70d2-473d-b75d-3a9515328183)
+
 
 ### Data Cleaning and Preprocessing
 
@@ -51,14 +58,16 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 - Standardizing feature names
 - Creating adverse event categories, encoding categorical features, combining columns 
 
+**Boxplot Showing Feature Distribution After Outlier Filtration**
+
 ![features after outliers filtration](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/a83d08c8-9522-40d8-9c8e-2b9c27037b61)
+
 
 ### Exploratory Data Analysis
 
 - Almost 2 million rows 
 - Compound ID: 341
-- Gene symbol: EGFR & PDGFRB
-- Adverse Event Categories: hematological, dermatological, and cardiovascular. (17)
+- Adverse Event Categories: Haematological, Dermatological, and Cardiovascular.
 - Bioavailability: max value is 73.7%
 - Fractional Absorption: max value 5.9
 - Clearance: max value 41.2 (L/Hr/kg)
@@ -76,7 +85,10 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 2. ↑ Molecular Weight = ↓ Oral Bioavailability = ↓ Absorption
 3. ↑ Molecular Weight = ↓ Clearance  = ↓ Safety 
 
+**Correlation Matrix: Physicochemical Properties vs Bioavailability And Clearance**
+
 ![cm physico vs bio:cl](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/ce611edb-9a40-41a5-a7fe-352a46af8403)
+
 
 ###  Investigating The Relationship Between Primary Potency And Off-Target Activity
 
@@ -84,6 +96,8 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 1. ↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↑ Efficacy
 2. ↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↑ Safety
 3. ↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↓ Metabolic Burden 
+
+**Correlation Matrix: Primary Potency vs Off-Target Activity**
 
 ![cm pp vs s](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/6068c56e-f5d2-4a64-83ec-2d833f903386)
 
@@ -95,6 +109,7 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 2. ↑ pIC50 = ↓ Adverse Events  = ↓ Dose 
 3. ↑ pIC50 = ↓ Adverse Events  = ↑ Safety 
 
+**Correlation Matrix: Off-Target Activity vs Adverse Events**
 ![cm s vs ae](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/a5e455e1-3438-4ff9-a9f7-7868d833def8)
 
 
@@ -105,7 +120,7 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 2. ↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↑ Dosing Duration
 3. ↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↓ Safety 
 
-
+**Correlation Matrix: In Vitro vs In Vivo Properties**
 ![cm vivo vs vitro](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/f252d4aa-453d-43f0-ac55-b2e8a63ea8df)
  In Vivo Properties
 
@@ -117,7 +132,9 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 2. ↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
 3. ↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
 
+**Correlation Matrix: Molecular Weight vs Fractional Absorption**
 ![cm physico vs abs](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/f13b3211-d64e-45d1-a907-0e7d1d1709d3)
+
 
 ### Final Thoughts And Future Directions Based On Insights
 
@@ -125,7 +142,6 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 
 - Focus on optimizing molecular weight and clearance for pharmacological profile optimization.
 
-    
 **For Further Research:**
 
 - Apply machine learning algorithms to predict drug behavior, efficacy, and safety. 
@@ -137,6 +153,7 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 5. Rank optimal compounds
 
 -  Validate findings with additional in vivo studies.
+
 
 ### Dependencies
 
