@@ -42,7 +42,7 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 
 - Dropping columns with unique values and > 50% missing values.
 - Handling of missing values (Mean & Mode imputation)
-- Removing duplicated rows 
+- Removing duplicate rows 
 - Removing outliers (IQR method) 
 - Standardizing feature names
 - Creating adverse event categories, encoding categorical features, combining columns 
