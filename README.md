@@ -24,7 +24,7 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 **Overview**
 
 - 3 datasets (Gene_Drug_Adverse_Event_Relationships.csv, Compound_Off_Target_Activity.csv and Project_Level_Data.csv)
-- Almost 7 million rows across three datasets (Big Data)
+- Almost 7 million rows across three datasets. 
 - Features include gene symbol, adverse event, adverse event category, encoded adverse event category, compound ID, pic50, primary target assay bioactivity, molecular weight, cell permeability, compound solubility, fractional absorption, bioavailability, and clearance.
 
 
@@ -40,10 +40,10 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 
 ### Data Cleaning and Preprocessing
 
-- Dropping columns with unique and >50% missing values.
+- Dropping columns with unique values and > 50% missing values.
 - Handling of missing values (Mean & Mode imputation)
 - Removing duplicated rows 
-- Removing outliers (Interquartile Range (IQR) method) (The IQR method helps identify these points based on their distance from the middle of the data distribution.)
+- Removing outliers (IQR method) 
 - Standardizing feature names
 - Creating adverse event categories, encoding categorical features, combining columns 
 
