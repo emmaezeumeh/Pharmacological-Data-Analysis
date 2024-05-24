@@ -54,14 +54,14 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 - Compound ID: 341
 - Gene symbol: EGFR & PDGFRB
 - Adverse Event Categories: hematological, dermatological, and cardiovascular. (17)
-- Bioavailability: max value is 73.7%.
-- Fractional Absorption: max value 5.9.
-- Clearance: max value 41.2 (L/Hr/kg).
-- Compound Solubility: max value is 705.0 (uM).
-- Cell Permeability: max value is 85.0.
-- pIC50: max value is 6.4.
-- Primary Bioactivity: max value is 0.6.
-- Molecular Weight: max value is 453.5.
+- Bioavailability: max value is 73.7%
+- Fractional Absorption: max value 5.9
+- Clearance: max value 41.2 (L/Hr/kg)
+- Compound Solubility: max value is 705.0 (uM)
+- Cell Permeability: max value is 85.0
+- pIC50: max value is 6.4
+- Primary Bioactivity: max value is 0.6
+- Molecular Weight: max value is 453.5
 
 
 ### Exploring The Impact Of Physicochemical Properties On Bioavailability And Clearance
