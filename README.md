@@ -85,7 +85,6 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 2. ↑ Molecular Weight = ↓ Oral Bioavailability = ↓ Absorption
 3. ↑ Molecular Weight = ↓ Clearance  = ↓ Safety 
 
-**Correlation Matrix: Physicochemical Properties vs Bioavailability And Clearance**
 
 ![cm physico vs bio:cl](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/ce611edb-9a40-41a5-a7fe-352a46af8403)
 
@@ -97,7 +96,6 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 2. ↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↑ Safety
 3. ↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↓ Metabolic Burden 
 
-**Correlation Matrix: Primary Potency vs Off-Target Activity**
 
 ![cm pp vs s](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/6068c56e-f5d2-4a64-83ec-2d833f903386)
 
@@ -109,7 +107,7 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 2. ↑ pIC50 = ↓ Adverse Events  = ↓ Dose 
 3. ↑ pIC50 = ↓ Adverse Events  = ↑ Safety 
 
-**Correlation Matrix: Off-Target Activity vs Adverse Events**
+
 ![cm s vs ae](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/a5e455e1-3438-4ff9-a9f7-7868d833def8)
 
 
@@ -120,9 +118,8 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 2. ↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↑ Dosing Duration
 3. ↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↓ Safety 
 
-**Correlation Matrix: In Vitro vs In Vivo Properties**
+
 ![cm vivo vs vitro](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/f252d4aa-453d-43f0-ac55-b2e8a63ea8df)
- In Vivo Properties
 
 
 ### Evaluating How Compound Solubility And Molecular Weight Affect Overall Fractional Absorption
@@ -132,7 +129,7 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 2. ↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
 3. ↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
 
-**Correlation Matrix: Molecular Weight vs Fractional Absorption**
+
 ![cm physico vs abs](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/f13b3211-d64e-45d1-a907-0e7d1d1709d3)
 
 
