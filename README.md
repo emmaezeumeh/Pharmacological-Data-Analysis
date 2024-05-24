@@ -1,3 +1,5 @@
+![image](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/ce339ca2-7f74-4a2b-aa4e-1cbab5cdef1c)
+
 
 # Pharmacological Data Analysis
 
@@ -26,7 +28,8 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 - 3 datasets (Gene_Drug_Adverse_Event_Relationships.csv, Compound_Off_Target_Activity.csv and Project_Level_Data.csv)
 - Almost 7 million rows across three datasets. 
 - Features include gene symbol, adverse event, adverse event category, encoded adverse event category, compound ID, pic50, primary target assay bioactivity, molecular weight, cell permeability, compound solubility, fractional absorption, bioavailability, and clearance.
-
+  
+![feature distribution](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/e73b36a6-f81a-4f20-8a68-78d04d8030bf)
 
 ### The Process
 
@@ -36,7 +39,8 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 - Data Standardization
 - Exploratory Data Analysis
 - Statistical Analysis
-
+  
+![features before outlier filtration](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/376a39b0-70d2-473d-b75d-3a9515328183)
 
 ### Data Cleaning and Preprocessing
 
@@ -47,6 +51,7 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 - Standardizing feature names
 - Creating adverse event categories, encoding categorical features, combining columns 
 
+![features after outliers filtration](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/a83d08c8-9522-40d8-9c8e-2b9c27037b61)
 
 ### Exploratory Data Analysis
 
@@ -66,61 +71,53 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 
 ### Exploring The Impact Of Physicochemical Properties On Bioavailability And Clearance
 
-
-- Correlation Matrix showing relationships
 - Key insights
 1. ↑ Molecular Weight = ↓ Bioavailability and Clearance = ↓ Efficacy
 2. ↑ Molecular Weight = ↓ Oral Bioavailability = ↓ Absorption
 3. ↑ Molecular Weight = ↓ Clearance  = ↓ Safety 
 
-Fig x: Physicochemical Properties vs Bioavailability and Clearance
-
+![cm physico vs bio:cl](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/ce611edb-9a40-41a5-a7fe-352a46af8403)
 
 ###  Investigating The Relationship Between Primary Potency And Off-Target Activity
 
-- Correlation Matrix showing relationships
 - Key insights
 1. ↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↑ Efficacy
 2. ↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↑ Safety
 3. ↑ Primary Target Assay Bioactivity = ↑ pIC50  = ↓ Metabolic Burden 
 
-Fig x:  Assessing Primary Potency vs Selectivity 
+![cm pp vs s](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/6068c56e-f5d2-4a64-83ec-2d833f903386)
 
 
 ### Is Higher Selectivity Directly Proportional To The Occurrence Of Fewer Adverse Events?
 
-- Correlation Matrix showing relationships
 - Key insights
 1. ↑ pIC50 = ↓ Adverse Events = ↑ Efficacy
 2. ↑ pIC50 = ↓ Adverse Events  = ↓ Dose 
 3. ↑ pIC50 = ↓ Adverse Events  = ↑ Safety 
 
-Fig x:  Drug Selectivity vs Adverse Reactions 
+![cm s vs ae](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/a5e455e1-3438-4ff9-a9f7-7868d833def8)
 
 
 ### Comparing In Vitro Bioactivity With In Vivo Intrinsic Clearance
 
-- Correlation Matrix showing relationships
 - Key insights
 1. ↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↑ Efficacy
 2. ↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↑ Dosing Duration
 3. ↑ Primary Target Assay Bioactivity = ↓ Clearance   = ↓ Safety 
 
 
-Fig x: In Vitro vs. In Vivo Properties
+![cm vivo vs vitro](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/f252d4aa-453d-43f0-ac55-b2e8a63ea8df)
+ In Vivo Properties
 
 
 ### Evaluating How Compound Solubility And Molecular Weight Affect Overall Fractional Absorption
 
-- Correlation Matrix showing relationships
 - Key insights
 1. ↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
 2. ↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
 3. ↑ Molecular Weight = ↓ Compound Solubility = ↓ Fractional Absorption 
 
-
-Fig x: Physicochemical Properties vs Absorption 
-
+![cm physico vs abs](https://github.com/emmaezeumeh/Pharmacological-Data-Analysis/assets/115907457/f13b3211-d64e-45d1-a907-0e7d1d1709d3)
 
 ### Final Thoughts And Future Directions Based On Insights
 
