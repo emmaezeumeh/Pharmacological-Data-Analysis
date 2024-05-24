@@ -159,6 +159,4 @@ Integrating and exploring multiple datasets in this project aims to uncover patt
 - Mathplotlib
 - Numpy
 - Pandas
-- Bokeh
-- SKLearn
 
